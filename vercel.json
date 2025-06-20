@@ -1,3 +1,4 @@
+
 {
   "version": 2,
   "builds": [
@@ -23,10 +24,5 @@
       "src": "/(.*\\.(jpg|jpeg|png|gif|mp4|mp3|wav|pdf|txt|zip|rar))",
       "dest": "/api/file/$1"
     }
-  ],
-  "functions": {
-    "api/**/*.js": {
-      "maxDuration": 30
-    }
-  }
+  ]
 }
