@@ -1,0 +1,22 @@
+{
+  "name": "cdn-storage",
+  "version": "1.0.0",
+  "description": "CDN for storing images, videos, audio and files",
+  "main": "api/upload.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "file-type": "^18.5.0",
+    "mime-types": "^2.1.35",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
